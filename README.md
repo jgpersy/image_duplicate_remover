@@ -2,9 +2,11 @@
 
 Searches a given directory for images, deleting any duplicates.
 
+GUI and CLI versions.
+
 Developed in Python 2.7.11
 
-## Non-standard dependencies (in both programmes):
+## Dependencies (in both programmes):
  - [PIL](http://python-pillow.org/) (run "pip install Pillow" from desired command line)
 
 ## Instructions
@@ -12,7 +14,7 @@ Developed in Python 2.7.11
 ### GUI 
  
 1. Clone repo and run program with python IDLE
-2. Select folder which contains possible duplicate images from pop-up window (**N.B.** does not iterate into other folders)
+2. Select folder which contains possible duplicate images from pop-up window (**N.B.** does not iterate into nested folders)
 3. Let the magic happen
 4. The number of duplicates found and deleted will print to the console
 
